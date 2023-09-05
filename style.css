@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body {
   font-family: Poppins, sans-serif;
 }
@@ -12,4 +16,17 @@ main {
 
 footer {
   background-color: #71c9ce;
+}
+
+.bild {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid;
+  border-radius: 10%;
+  border-color: #cbf1f5;
+}
+.namn {
+  text-align: center;
+  font-size: 3rem;
 }
