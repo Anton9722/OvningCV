@@ -4,6 +4,7 @@
 
 body {
   font-family: Poppins, sans-serif;
+  background-color: #e3fdfd;
 }
 
 header {
@@ -25,8 +26,44 @@ footer {
   border: 5px solid;
   border-radius: 10%;
   border-color: #cbf1f5;
+  box-shadow: 2px 2px 5px black;
 }
 .namn {
   text-align: center;
   font-size: 3rem;
+  text-shadow: 2px 2px 3px black;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  border: 10px solid;
+  border-color: #a6e3e9;
+  border-radius: 1%;
+  box-shadow: 2px 2px 5px black;
+}
+
+.socials {
+  text-align: center;
+}
+
+button {
+  border: 2px outset;
+  border-color: #a6e3e9;
+  border-radius: 5%;
+  background-color: transparent;
+  background-color: #a6e3e9;
+  box-shadow: 2px 2px 5px black;
+}
+
+h3 {
+  text-align: center;
+}
+
+.main-left {
+  position: relative;
+}
+.main-right {
+  position: relative;
 }
